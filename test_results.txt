@@ -1,0 +1,57 @@
+PASS: file_info compiles without warnings
+PASS: file_reader compiles without warnings
+PASS: mycopy compiles without warnings
+PASS: standard_io compiles without warnings
+PASS: mycopy_stdio compiles without warnings
+PASS: fd_test compiles without warnings
+PASS: myhead compiles without warnings
+PASS: file_info descriptor 3
+PASS: reader preserves bytes and reports reads including EOF
+PASS: mycopy text copy and truncation
+PASS: mycopy empty copy and truncation
+PASS: mycopy binary copy and truncation
+PASS: mycopy large copy and truncation
+PASS: mycopy rejects []
+PASS: mycopy rejects ['a', 'b', 'c']
+PASS: mycopy rejects ['missing.txt', 'out']
+PASS: mycopy rejects ['input.txt', '.']
+PASS: mycopy rejects same file without data loss
+PASS: mycopy rejects hard-link alias
+PASS: mycopy destination permission denial
+PASS: mycopy detects output device full
+PASS: mycopy_stdio text copy and truncation
+PASS: mycopy_stdio empty copy and truncation
+PASS: mycopy_stdio binary copy and truncation
+PASS: mycopy_stdio large copy and truncation
+PASS: mycopy_stdio rejects []
+PASS: mycopy_stdio rejects ['a', 'b', 'c']
+PASS: mycopy_stdio rejects ['missing.txt', 'out']
+PASS: mycopy_stdio rejects ['input.txt', '.']
+PASS: mycopy_stdio rejects same file without data loss
+PASS: mycopy_stdio rejects hard-link alias
+PASS: mycopy_stdio destination permission denial
+PASS: mycopy_stdio detects output device full
+PASS: stdout and stderr separation
+PASS: descriptor 4 reused experimentally
+PASS: myhead default matches UNIX head
+PASS: myhead five matches UNIX head
+PASS: myhead zero matches UNIX head
+PASS: myhead beyond EOF matches UNIX head
+PASS: myhead empty matches UNIX head
+PASS: myhead no final newline matches UNIX head
+PASS: myhead long line matches UNIX head
+PASS: myhead buffer boundary matches UNIX head
+PASS: myhead rejects []
+PASS: myhead rejects ['-1', 'input.txt']
+PASS: myhead rejects ['abc', 'input.txt']
+PASS: myhead rejects ['1x', 'input.txt']
+PASS: myhead rejects ['999999999999999999999999999999', 'input.txt']
+PASS: myhead rejects ['missing.txt']
+PASS: file_info missing input error
+PASS: file_reader missing input error
+PASS: intentional-error reader variant compiles
+PASS: intentional error is only on stderr
+PASS: literal descriptor variant compiles
+PASS: literal descriptor behavior matches constants
+
+55 checks passed.
