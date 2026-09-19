@@ -1,0 +1,11 @@
+file_info
+file_reader
+mycopy
+mycopy_stdio
+standard_io
+fd_test
+myhead
+copy.txt
+copy2.txt
+fd_*.txt
+__pycache__/
