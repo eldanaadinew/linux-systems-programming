@@ -4,6 +4,13 @@ A collection of C command-line utilities that demonstrate POSIX file descriptors
 
 ## Project coordination and delivery
 
+**Technical deliverables:** Built Linux C file utilities and a repeatable Make-based build process.
+
+**Quality assurance:** Automated tests cover expected behavior, edge cases, and failure handling; a saved test run documents 55 passing checks. This demonstrates verification of requirements and documented technical delivery.
+
+
+## Project coordination and delivery
+
 Linux file utilities, Make build workflow, and automated quality checks. Saved test run reports 55 successful checks, demonstrating defined acceptance checks and repeatable validation.
 
 ## Highlights
