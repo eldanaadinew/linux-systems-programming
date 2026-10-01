@@ -2,6 +2,10 @@
 
 A collection of C command-line utilities that demonstrate POSIX file descriptors, low-level and buffered file I/O, standard output/error handling, error recovery, and UNIX-style program behavior.
 
+## Project coordination and delivery
+
+Linux file utilities, Make build workflow, and automated quality checks. Saved test run reports 55 successful checks, demonstrating defined acceptance checks and repeatable validation.
+
 ## Highlights
 
 - Implements file copying with both POSIX system calls and C standard I/O.
